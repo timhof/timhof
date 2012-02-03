@@ -380,3 +380,65 @@ ol.commentlist li.thread-odd {}
 	color: #FFFFFF;
 	text-decoration:none;
 }
+
+.tut_title{
+	font-size: 2em;
+	margin: 10px;
+}
+
+.tut_title ul{
+	font-size:0.7em;
+
+}
+
+.tut_title li{
+	list-style: disc;
+	margin-left: 20px;
+}
+
+.tut_step_title
+{
+	font-size: 1.5em;
+	margin: 20px 2px 0px 2px;
+	padding: 5px;
+	background-color: #6093cb;
+	color: #ffffff;
+	border-radius: 15px 15px 0 0 / 15px;
+}
+
+.tut_step_body{
+	margin-right: 2px;
+	margin-left: 2px;
+	margin-bottom: 2px;
+	margin-top: 0px;
+	font-size: 1.2em;
+	background-color: #6093cb;
+	color: #ffffff;
+	border-radius: 0 0 15px 15px / 15px;
+}
+
+.tut_step_links{
+	margin-left: 10px;
+	padding: 5px 0px;
+	font-size: .8em;
+	color: #cc0000;
+}
+
+.code_div{
+	font-size: .85em;
+	background-color: #FFFFFF;
+	color: #000000;
+	padding: 2px 5px;
+	margin: 0px;
+}
+
+.notes_div{
+	padding: 2px;
+	background-color: #8bb5dc;
+}
+ 
+a:link{color: #c9e1f3;}
+a:visited{color: #c9e1f3;}
+a:hover{color: #cc0000;}
+a:active{color: #cc0000;}
+
