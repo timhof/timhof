@@ -277,6 +277,8 @@ ol.commentlist li.thread-odd {}
 
 		article{
 			margin-bottom: 20px;
+			background-color: #ffffff;
+			padding: 5px;
 		}
 	
 		#header {
@@ -322,12 +324,27 @@ ol.commentlist li.thread-odd {}
 			border-color: #333333;
 			border-style: solid;
 			border-width: 0px;
+			background-color: #ffffff;
+			font-weight: bold;
 		}
 
+		#sidebar h2{
+			margin-top: 5px;
+		}
+	
+		#sidebar ul{
+			margin-top: 10px;
+		}
 		#sidebar li{
 			list-style: none;
+			margin-top: 5px;
 		}
 		
+		#sidebar a:link{color: #6093cb;}
+		#sidebar a:visited{color: #c9e1f3;}
+		#sidebar a:hover{color: #cc0000;}
+		#sidebar a:active{color: #cc0000;}
+
 		#footer {
 			height: 75px;
 			background-image: url(img/footer.gif);
@@ -430,6 +447,9 @@ ol.commentlist li.thread-odd {}
 	color: #000000;
 	padding: 2px 5px;
 	margin: 0px;
+	border-color: #8bb5dc;
+	border-width: 0px 2px;
+	border-style: solid;
 }
 
 .notes_div{
@@ -437,8 +457,8 @@ ol.commentlist li.thread-odd {}
 	background-color: #8bb5dc;
 }
  
-a:link{color: #c9e1f3;}
-a:visited{color: #c9e1f3;}
-a:hover{color: #cc0000;}
-a:active{color: #cc0000;}
+.tut_step_links a:link{color: #c9e1f3;}
+.tut_step_links a:visited{color: #c9e1f3;}
+.tut_step_links a:hover{color: #cc0000;}
+.tut_step_links a:active{color: #cc0000;}
 
