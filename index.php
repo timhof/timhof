@@ -1,8 +1,10 @@
 <?php get_header(); ?>
 	<div id="content">
 
-	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
+	<?php $count = 0; ?>
+	<?php the_post(); ?>
+			
+		<?php $count++ ?>
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 
 			<?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?> 
@@ -21,15 +23,9 @@
 
 		</article>
 
-	<?php endwhile; ?>
 
 	<?php //include (TEMPLATEPATH . '/_/inc/nav.php' ); ?> 
 
-	<?php else : ?>
-
-		<!--<h2>Not Found</h2>-->
-
-	<?php endif; ?>
 	</div><!-- #content -->
 
 <?php get_sidebar(); ?>

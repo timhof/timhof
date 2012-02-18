@@ -37,6 +37,13 @@
 </script>
 -->
 	
+<script type="text/javascript">
+	SyntaxHighlighter.autoloader(
+		'bash shell	http://alexgorbatchev.com/pub/sh/current/scripts/shBrushBash.js',
+		'rails ror ruby	http://alexgorbatchev.com/pub/sh/current/scripts/shBrushRuby.js'
+	);
+     	SyntaxHighlighter.all()
+</script>
 </body>
 
 </html>

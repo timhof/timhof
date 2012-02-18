@@ -103,6 +103,11 @@
 
 	<?php wp_head(); ?>
 	
+<link href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+<link href="http://alexgorbatchev.com/pub/sh/current/styles/shCore.css" rel="stylesheet" type="text/css" />
+<script src="http://alexgorbatchev.com/pub/sh/current/scripts/shCore.js" type="text/javascript"></script>
+<script src="http://alexgorbatchev.com/pub/sh/current/scripts/shAutoloader.js" type="text/javascript"></script>
+
 <meta name="google-site-verification" content="602GDLSyfu4ViIZPy7Axg4G52dYJAi1hlvD77c7Ik3g" />
 </head>
 

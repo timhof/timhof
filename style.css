@@ -263,7 +263,7 @@ ol.commentlist li.thread-odd {}
 			min-height: 100%;
 			color: #333333;
 			margin: 0 auto;
-			background-color: #eeeeee;
+			background-color: #ecf1f5;
 		}
 
 		.post_title{
@@ -312,6 +312,8 @@ ol.commentlist li.thread-odd {}
 			border-style: solid;
 			border-width: 0px;
 			border-color: #333333;
+			
+			background-color: #ffffff;
 		}
 
 		#sidebar {
@@ -324,7 +326,6 @@ ol.commentlist li.thread-odd {}
 			border-color: #333333;
 			border-style: solid;
 			border-width: 0px;
-			background-color: #ffffff;
 			font-weight: bold;
 		}
 
@@ -340,10 +341,10 @@ ol.commentlist li.thread-odd {}
 			margin-top: 5px;
 		}
 		
-		#sidebar a:link{color: #6093cb;}
-		#sidebar a:visited{color: #c9e1f3;}
-		#sidebar a:hover{color: #cc0000;}
-		#sidebar a:active{color: #cc0000;}
+		a:link{color: #6093cb;}
+		a:visited{color: #6093cb;}
+		a:hover{color: #cc0000;}
+		a:active{color: #cc0000;}
 
 		#footer {
 			height: 75px;
@@ -435,10 +436,13 @@ ol.commentlist li.thread-odd {}
 }
 
 .tut_step_links{
-	margin-left: 10px;
-	padding: 5px 0px;
+	margin: 0px 10px;
+	padding: 5px 5px;
 	font-size: .8em;
 	color: #cc0000;
+	background-color: #FFFFFF;
+	border: 1px solid;
+	border-color: #6093cb;
 }
 
 .code_div{
@@ -457,8 +461,24 @@ ol.commentlist li.thread-odd {}
 	background-color: #8bb5dc;
 }
  
-.tut_step_links a:link{color: #c9e1f3;}
-.tut_step_links a:visited{color: #c9e1f3;}
-.tut_step_links a:hover{color: #cc0000;}
-.tut_step_links a:active{color: #cc0000;}
+#schedule_title{
+	text-align:center;
+	width: 100%;
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+#schedule_table
+{
+	width: 100%;
+	background-color: #ffffff;
+}
 
+#schedule_table td
+{
+	padding: 5px;
+}
+.win
+{
+	background-color: #6093cb;
+	color: #ffffff;
+}
